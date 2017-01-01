@@ -2,7 +2,7 @@
 # General Site Settings
 
 title: Sharon Brizinov
-description: Developer // Security Researcher // Entrepreneur
+description: Software Developer // Security Researcher // Entrepreneur
 email: Sharon.Brizinov+Job@gmail.com
 
 # NOTE: The Logo and Background image are defined in the all.sass document.
@@ -10,8 +10,8 @@ email: Sharon.Brizinov+Job@gmail.com
 menu:
 - {name: About Me, url: '#about-me'}
 - {name: Work, url: '#work'}
-- {name: Clients, url: '#clients'}
 - {name: Contact, url: '#contact'}
+- {name: Linkedin, url: 'https://www.linkedin.com/in/sharon-brizinov-808b9753'}
 
 #-------------------------------
 # SEO Section
@@ -19,9 +19,9 @@ menu:
 # NOTE: Providing SEO information will make this website more searchable on the internet.
 
 seo:
-  description: 'Provide a description for your website to make it visible to search engines.'
-  rel-author: 'https://plus.google.com/u/0/+DevTipsForDesigners/'
-  rel-publisher: 'https://plus.google.com/u/0/+DevTipsForDesigners/'
+  description: 'Software developer with a strong passion to mobile, secuirty research and sceince'
+  rel-author: 'http://www.sharonbrizinov.com'
+  rel-publisher: 'http://www.sharonbrizinov.com'
 
 #-------------------------------
 # Google Analytics Section
@@ -39,41 +39,25 @@ google-analytics-ua: UA-23237683-1
 # NOTE: The avatar is defined in the all.sass document.
 
 blurb: >
-  **Travis specializes in making things** for human people.
-  Most of the things he makes are [digital interfaces](http://travisneilson.com){:target="_blank"},
-  but he also puts effort into crafting [next-level beats](http://soundcloud.com/travis-neilson){:target="_blank"}
-  and [YouTube videos](http://youtube.com/user/devtipsfordesigners){:target="_blank"} about making codes happen.
+  **Sharon specializes in making awesome products.**
+  Most of the things he develops are [mobile applications](https://itunes.apple.com/il/developer/sharon-brizinov/id435609791){:target="_blank"},
+  but he also puts effort into [security research](http://fullstacks.io){:target="_blank"}
+  and [open source projects](https://github.com/SharonBrizinov){:target="_blank"}.
 
-
-skills:
-- {name: Communication, value: '9'}
-- {name: Organization, value: '7'}
-- {name: Learning, value: '10'}
-- {name: Teaching, value: '6'}
-- {name: Planning, value: '7'}
-- {name: Visual Design, value: '5'}
-- {name: UX Design, value: '8'}
-- {name: Programming, value: '6'}
 
 #-------------------------------
 # Work Section
 
 projects:
-- {name: TYPO International Design Talks, folder: 'proj-1', file: 'work/proj-1.html'}
-- {name: City-IN website concept, folder: 'proj-2', file: 'work/proj-2.html'}
-- {name: Crispy Icons, folder: 'proj-3', file: 'work/proj-3.html'}
-- {name: Flat Mobile UI/UX Concept, folder: 'proj-4', file: 'work/proj-4.html'}
-- {name: Fresh It Up, folder: 'proj-5', file: 'work/proj-5.html'}
-- {name: Timeline Page, folder: 'proj-6', file: 'work/proj-6.html'}
-- {name: Weather Dashboard, folder: 'proj-7', file: 'work/proj-7.html'}
-- {name: Stripes & Co, folder: 'proj-8', file: 'work/proj-8.html'}
+- {name: Yo - Modern Simon Says (Game), folder: 'proj-1', url: 'http://www.hashtagyo.com/'}
+- {name: Meme+ Pro - Meme Generator & SoundPad (iOS), folder: 'proj-2', url: 'https://itunes.apple.com/us/app/meme+-pro-meme-generator-soundpad/id488702679?mt=8'}
+- {name: Geometry 2D (iOS), folder: 'proj-3', url: 'https://itunes.apple.com/us/app/geometry-2d/id441907476?mt=8'}
+- {name: TestGloss (iOS), folder: 'proj-4', url: 'https://itunes.apple.com/us/app/testgloss/id502302350?mt=8'}
+- {name: Inviter (iOS), folder: 'proj-5', url: 'https://itunes.apple.com/il/app/inviter-hzmnwt-w-yswry-hg-h/id905097504?mt=8'}
+- {name: Asteroids (Game), folder: 'proj-6', url: 'https://github.com/SharonBrizinov/Asteroids'}
+- {name: iCopter (ASM), folder: 'proj-7', url: 'https://github.com/SharonBrizinov/iCopter'}
+- {name: Whatsapp Analyzer (iOS), folder: 'proj-8', url: 'https://github.com/SharonBrizinov/Whatsapp-Analyzer'}
 
-#-------------------------------
-# Contact Section
-
-social:
-- {icon: 'github', link: 'https://github.com/SharonBrizinov'}
-- {icon: 'linkedin', link: 'https://www.linkedin.com/in/sharon-brizinov-808b9753'}
 
 
 # social network icons available: 'twitter' / 'facebook' / 'github' / 'pinterest' 'google-plus' / 'linkedin' / 'youtube' / 'instagram' / 'dribbble' / 'behance' / 'soundcloud' / 'vine'
